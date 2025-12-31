@@ -61,47 +61,6 @@ You can copy-paste this directly as `README.md`.
 
 A professional, theme-based **Markdown → PDF export utility** built on **Pandoc + Paged.js**, optimized for **teaching materials, academic documents, and technical manuals**.
 
----
-
-## 🚀 What’s New in v2.2.0
-
-### ✅ Major Fixes
-- **Markdown lists now render correctly**
-  - Ordered lists (`1. 2. 3.`)
-  - Unordered lists (`-`, `*`)
-  - GitHub-style task lists (`- [ ]`)
-  - Nested lists
-- **Code blocks preserve line breaks**
-  - New lines after semicolons (`;`) are respected
-  - No collapsed or merged code lines
-  - Proper wrapping without horizontal overflow
-
-### 🔧 Technical Improvements
-- Enabled `markdown+hard_line_breaks`
-- Unified list rendering across **all themes**
-- Deterministic code block formatting for Paged.js
-- No Lua filters required
-
----
-
-## 📁 Project Structure
-
-```text
-pandoc-pdf-utility/
-│
-├── export_v2.bat              # Main automation script
-├── header-footer.html         # Paged.js header/footer configuration
-├── README.md                  # Documentation
-│
-└── themes/
-    ├── professional.css       # Default professional theme
-    ├── academic.css           # Academic / thesis style
-    ├── modern.css             # Modern colorful style
-    └── minimal.css            # Minimal clean style
-````
-
----
-
 ## 🧰 Requirements
 
 Make sure the following tools are installed and available in your system `PATH`:
